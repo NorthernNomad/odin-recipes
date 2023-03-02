@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    background-color:rgb(89, 105, 131)
+}
+.header {
+    color:rgb(19, 6, 77);
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*pancake picture in the page center*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+
+.recipe-images {
+    height: 250px;
+    width: auto;
+    display: flex;
+/*round corners on recipe images*/
+    border-radius: 20px;
+    float: left;
+    max-width: 33,3%;
+    padding: 5px;
+    
+}
+
